@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+
+    background-color: rgb(249, 243, 230);
+  }
+
+.article {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 80px;
+
+    position: relative;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+
+    padding: 40px 0px ;
+
+    border-bottom: 8px solid black;
+}
+
+.title {
+ display: grid;
+ justify-items: end;
+ align-items: end;
+
+ padding: 30px 0px 90px;
+
+  }
+
+.element {
+    display: grid;
+    grid-template-columns: 50vw auto ;
+    grid-template-rows: auto auto;
+  
+    background-color: rgb(159, 158, 158);
+
+    height: 90vh;
+  
+  }
+
+.item1 {
+    grid-column: 2/2;
+    grid-row: 1/3;
+    background-color: rgb(4, 24, 24);
+
+}
+
+
+  
+h1 {
+    font-size: 80px;
+
+    margin: 0;
+  }
+
+h2 {
+font-size: 40px;
+
+    margin: 0;
+  }
